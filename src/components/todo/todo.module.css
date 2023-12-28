@@ -1,0 +1,4 @@
+.todoTable table,
+.todoTable td {
+	border: 1px solid black;
+}
