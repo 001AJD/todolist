@@ -2,8 +2,8 @@ function TodoItem(props: { serialNumber: number; task: string }) {
 	const { serialNumber, task } = props;
 	return (
 		<tr>
-			<td colSpan={1}>{serialNumber}</td>
-			<td colSpan={2}>{task}</td>
+			{/* <td colSpan={0.5}>{serialNumber}</td> */}
+			<td colSpan={3}>{task}</td>
 		</tr>
 	);
 }

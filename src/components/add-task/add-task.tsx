@@ -16,10 +16,9 @@ function AddTask() {
 		// add task to the list of tasks
 		if (task !== "") {
 			taskCtx.addTask({
-				id: taskCtx.totalTasks + 1,
+				id: ++taskCtx.totalTasks,
 				task: task,
 			});
-			console.log(taskCtx.totalTasks);
 			setTask("");
 		}
 	}
