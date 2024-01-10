@@ -1,8 +1,10 @@
 function Button(props: { btnText: string; onClick?: any }) {
 	const { btnText, onClick } = props;
-	function handleClick() {
+	
+  function handleClick() {
 		onClick();
 	}
+  
 	if (onClick) {
 		return <button onClick={handleClick}>{btnText}</button>;
 	} else {

@@ -8,8 +8,7 @@ function Todo() {
 			<table>
 				<thead>
 					<tr>
-						<th>Sr No.</th>
-						<th>Item</th>
+						<th colSpan={2}>Todo List</th>
 					</tr>
 				</thead>
 				<tbody>

@@ -19,7 +19,7 @@ function TodoList() {
 					return (
 						<TodoItem
 							key={item.id}
-							serialNumber={item.id}
+							taskId={item.id}
 							task={item.task}
 						/>
 					);

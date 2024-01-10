@@ -40,7 +40,7 @@ export function TaskContextProvider(props: {
 	function removeTaskHandler(id: number) {
 		setTasks((tasks) => {
 			return tasks.filter((t) => {
-				t.id !== id;
+				return t.id !== id;
 			});
 		});
 	}
